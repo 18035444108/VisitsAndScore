@@ -1,0 +1,5 @@
+[2018-05-30 10:57:13 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:507
+[2018-05-30 11:05:10 ERROR] [main] (com.golaxy.main.BatchRequestToMysqlWebScore:101) - 
+[2018-05-30 11:17:48 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:66) - 
+[2018-05-30 14:37:28 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:68) - 
+[2018-05-30 15:34:49 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:68) - 

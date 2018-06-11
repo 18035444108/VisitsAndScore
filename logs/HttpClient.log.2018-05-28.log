@@ -1,0 +1,20 @@
+[2018-05-28 11:21:16 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:104) - I:\resp_1_*.json.gz (文件名、目录名或卷标语法不正确。)
+[2018-05-28 11:40:19 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:105) - 
+[2018-05-28 11:42:57 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:105) - 
+[2018-05-28 13:31:25 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:107) - 
+[2018-05-28 13:38:47 ERROR] [main] (cn.eversec.amc.utils.AESUtil:223) - 返回结果格式有误？！
+[2018-05-28 13:58:27 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:74) - \home\lixiang\lx\sourcequery\batchrequest\req_1_20180528015827.json (系统找不到指定的路径。)
+[2018-05-28 13:59:28 ERROR] [main] (com.golaxy.main.BatchRequestToMysql:103) - \home\lixiang\lx\sourcequery\batchrequest\resp_1_20180528015827.json.gz (系统找不到指定的路径。)
+[2018-05-28 14:24:59 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 14:39:04 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 14:43:03 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 15:17:38 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 15:33:01 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:69) - \home\lixiang\lx\sourcequery\batchrequest\resp_1_20180528033259.json.gz (系统找不到指定的路径。)
+[2018-05-28 15:33:14 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:69) - 
+[2018-05-28 15:33:36 ERROR] [main] (com.golaxy.main.BatchRequestToMysql2:69) - 
+[2018-05-28 15:38:13 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 15:40:50 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 16:33:37 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 16:57:15 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-28 17:04:21 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:511
+[2018-05-28 17:13:24 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504

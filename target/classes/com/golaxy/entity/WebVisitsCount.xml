@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="qrjrwz">
+	<!--查询结果集的配置文件-->
+  <resultMap type="com.golaxy.entity.WebVisitsCount" id="webPvCount">
+  	<result column="wzid"  jdbcType="INTEGER" property="wzid"/>
+    <result column="ym" jdbcType="VARCHAR" property="ym"/>
+    <result column="gatherdate"  jdbcType="DATE" property="date"/>
+    <result column="visits" jdbcType="INTEGER" property="visits"/>
+    
+  </resultMap>
+
+  <!-- 参数map插入 -->
+	<insert id="addWebVisits" parameterType="java.util.Map">
+		INSERT INTO web_visits_count(
+		wzid,ym,gatherdate,visits)
+		VALUE(
+		#{wzid},#{ym},#{gatherdate},#{visits}
+		)
+	</insert>
+	 
+	 
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

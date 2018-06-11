@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.golaxy</groupId>
+  <artifactId>VisitsAndScore</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+	<dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	    <version>1.11</version>
+	</dependency>
+	<dependency>
+			<groupId>com.golaxy</groupId>
+			<artifactId>HttpClient</artifactId>
+			<version>4.2</version>
+	</dependency>
+	<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.38</version>
+		</dependency>
+		<dependency>
+		 <groupId>org.mybatis</groupId>
+		 <artifactId>mybatis</artifactId>
+		 <version>3.2.0</version>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>3.1.11</version>
+	</dependency>
+	<dependency>
+    <groupId>jsch</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.29</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.17</version>
+</dependency>
+  </dependencies>
+  
+  <build>
+  <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>1.2.1</version>
+        <configuration>
+          <skipTests>true</skipTests>
+          <compilerArguments>
+     		<extdirs>lib</extdirs><!--指定外部lib-->
+     	  </compilerArguments>
+        </configuration>
+        <executions>
+            <execution>
+                <phase>package</phase>
+                <goals>
+                        <goal>shade</goal>
+                </goals>
+                    <configuration>
+                        <transformers>
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <mainClass>com.golaxy.main.WebPvToMysql</mainClass>
+                            </transformer>
+                        </transformers>
+                    </configuration>
+            </execution>
+        </executions>
+     </plugin>
+  </plugins>
+</build>
+</project>

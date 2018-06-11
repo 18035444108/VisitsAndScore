@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//conf/config.properties=ISO-8859-1
+encoding//src/main/java/cn/eversec/amc/utils/AESUtil.java=UTF-8
+encoding//src/main/java/cn/eversec/amc/utils/CertificateEncrypt.java=UTF-8
+encoding//src/main/java/cn/eversec/amc/utils/CertificateEncrypt2.java=UTF-8

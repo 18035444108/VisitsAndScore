@@ -1,0 +1,7 @@
+[2018-05-24 09:47:04 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-24 09:47:20 ERROR] [main] (com.golaxy.main.WebScoreToMysql:46) - 域名：czxhcf.com获取结果出错！
+[2018-05-24 10:11:34 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-24 10:11:44 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-24 10:12:05 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-24 10:42:43 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:6
+[2018-05-24 11:03:24 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:512

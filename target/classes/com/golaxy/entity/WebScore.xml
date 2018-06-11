@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="webscore">
+	<!--查询结果集的配置文件-->
+  <resultMap type="com.golaxy.entity.WebScore" id="webScore">
+  	<result column="wzid"  jdbcType="INTEGER" property="wzid"/>
+    <result column="ym" jdbcType="VARCHAR" property="ym"/>
+    <result column="gatherdate"  jdbcType="DATE" property="date"/>
+    <result column="score" javaType="double" jdbcType="DOUBLE" property="score"/>
+    <result column="scoreRanking" jdbcType="INTEGER" property="scoreRanking"/>
+    <result column="updateTime" jdbcType="VARCHAR" property="updateTime"/>
+    
+  </resultMap>
+
+  <!-- 参数map插入 -->
+	<insert id="addWebScore" parameterType="java.util.Map">
+		INSERT INTO web_score(
+		wzid,ym,gatherdate,score,scoreRanking,updateTime)
+		VALUE(
+		#{wzid},#{ym},#{gatherdate},#{score},#{scoreRanking},#{updateTime}
+		)
+	</insert>
+	 
+	 
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

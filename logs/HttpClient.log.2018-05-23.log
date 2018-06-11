@@ -1,0 +1,39 @@
+[2018-05-23 10:53:24 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/WebPvCount.xml
+### The error occurred while processing mapper_resultMap[qrjrwzEntity]
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource com/golaxy/entity/WebPvCount.xml
+[2018-05-23 10:53:42 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/web_visits_count
+### The error occurred while processing mapper_resultMap[qrjrwzEntity]
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource com/golaxy/entity/web_visits_count
+[2018-05-23 10:53:55 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/web_visits_count.xml
+### The error occurred while processing mapper_resultMap[qrjrwzEntity]
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource com/golaxy/entity/web_visits_count.xml
+[2018-05-23 10:54:25 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/WebVisitsCount.xml
+### The error occurred while processing mapper_resultMap[webPvCount]
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.golaxy.entity.WebPvCount'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.golaxy.entity.WebPvCount
+[2018-05-23 10:59:06 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-23 13:41:13 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/WebScore.xml
+### The error occurred while processing mapper_resultMap[webScore]
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.LONG
+[2018-05-23 14:06:31 ERROR] [main] (org.apache.ibatis.session.SqlSession:18) - Could not find resource ./conf/Configuration.xml
+[2018-05-23 14:52:16 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 14:53:06 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 14:54:09 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 14:55:39 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 14:58:47 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 15:00:06 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 15:03:47 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:999
+[2018-05-23 15:03:50 ERROR] [main] (com.golaxy.main.WebScoreToMysql:46) - GYyiliao.cn获取结果出错！
+[2018-05-23 15:30:12 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-23 15:53:56 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-23 18:59:24 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000
+[2018-05-23 18:59:37 ERROR] [main] (cn.eversec.amc.utils.AESUtil:220) - statusCode:-10000

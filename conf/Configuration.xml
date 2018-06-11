@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC">
+        <property name="" value=""/>
+      </transactionManager>
+      <!--数据源(数据库的相关配置)-->
+      <dataSource type="UNPOOLED">
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://202.108.211.109:51024/funds_task"/> 
+         <!-- <property name="url" value="jdbc:mysql://localhost:3333/recruit"/>  -->
+        <property name="username" value="jss"/> 
+        <property name="password" value="jss12345"/> 
+        
+        
+      </dataSource>
+    </environment>
+  </environments>
+  <!--加载类的配置文件-->
+  <mappers>
+    <mapper resource="com/golaxy/entity/QrjrwzEntity.xml"/>
+    <mapper resource="com/golaxy/entity/WebVisitsCount.xml"/>
+    <mapper resource="com/golaxy/entity/WebScore.xml"/> 
+  </mappers>
+</configuration>

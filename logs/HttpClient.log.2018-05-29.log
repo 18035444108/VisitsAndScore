@@ -1,0 +1,10 @@
+[2018-05-29 09:35:36 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-29 11:37:19 ERROR] [main] (cn.eversec.amc.utils.AESUtil:246) - statusCode:504
+[2018-05-29 14:02:45 ERROR] [main] (org.apache.ibatis.session.SqlSession:21) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/QrjrwzEntity.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 59; 必须为元素类型 "select" 声明属性 "resultTpye"。
+[2018-05-29 14:03:32 ERROR] [main] (org.apache.ibatis.session.SqlSession:21) - 
+### Error building SqlSession.
+### The error may exist in com/golaxy/entity/QrjrwzEntity.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 59; 必须为元素类型 "select" 声明属性 "resultTpye"。

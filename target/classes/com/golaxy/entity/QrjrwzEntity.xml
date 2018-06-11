@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="qrjrwz">
+	<!--查询结果集的配置文件-->
+  <resultMap type="com.golaxy.entity.QrjrwzEntity" id="qrjrwzEntity">
+  	<result column="wzid"  jdbcType="INTEGER" property="wzid"/>
+    <result column="ptid" jdbcType="INTEGER" property="ptid"/>
+    <result column="ym" jdbcType="VARCHAR" property="ym"/>
+    <result column="wzmc" jdbcType="VARCHAR" property="wzmc"/>
+  </resultMap>
+
+  <!--定义一个进行查询所有的sql语句-->
+  <select id="queryAllQrjrwz" parameterType="java.util.Map"  resultMap="qrjrwzEntity">
+     select wzid,ptid,ym,wzmc from qrjrwz order by wzid; 
+  </select>
+  <!-- 返回数据库有数据总数 -->
+  <select id="queryCount"  resultType="java.lang.Integer">
+     select count(wzid) from qrjrwz; 
+  </select>
+  
+  <select id="queryAllIf" parameterType="java.util.Map"  resultMap="qrjrwzEntity">
+     select wzid,ptid,ym,wzmc from qrjrwz where wzid > #{wzid} limit #{size}; 
+  </select>
+</mapper>
